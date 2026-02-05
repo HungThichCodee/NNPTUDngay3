@@ -1,0 +1,26 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Table Images */
+.table img {
+    border: 1px solid #ddd;
+}
+
+/* Hover effect for rows */
+.table-hover tbody tr {
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+/* Navbar Icon */
+.navbar-brand i {
+    color: #ffc107;
+}
+
+/* Tooltip Customization (Bootstrap handles functionality, this is just polish) */
+.tooltip-inner {
+    max-width: 300px;
+    text-align: left;
+}
